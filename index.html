@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fruit Brust</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!-- daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font-awasome -->
+    <script src="https://kit.fontawesome.com/9287b442ed.js" crossorigin="anonymous"></script>
+    <style>
+        .lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="lato">
+    <header class="lg:mx-60 my-24">
+        <nav>
+            <!-- section-nav -->
+            <div class="navbar bg-red-600 p-8 rounded-full">
+                <div class="">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All fruits</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class=" hidden lg:flex flex-1">
+                    <ul class="menu menu-horizontal px-1 text-white text-lg	font-medium	">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All fruits</a></li>
+                    </ul>
+                </div>
+                <div class="lg:flex-1">
+                    <div class="flex items-center gap-4">
+                        <img src="images/logo.png" alt="">
+                        <h1 class="font-bold	text-5xl	text-white">Fruit Burst</h1>
+                    </div>
+                </div>
+                <div class="flex-1 hidden lg:block  ">
+                    <input type="search" placeholder="Search here" name="Search" id="" class="py-5 pl-8 pr-[287px] rounded-full relative" p><i class="fa-solid fa-magnifying-glass absolute right-72 top-[150px]"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+</body>
+
+</html>
